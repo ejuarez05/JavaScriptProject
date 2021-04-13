@@ -130,3 +130,7 @@ var date = new Date(1996, 11, 5, 6, 30);
 document.write(date);
 
 document.write(date.toLocaleString("ar-SA"));
+
+var x = moment().subtract("1,day").calendar();
+
+document.write(x);

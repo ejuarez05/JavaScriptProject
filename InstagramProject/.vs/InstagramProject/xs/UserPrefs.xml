@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.InstagramProject PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="InstagramProject/wwwroot/js/Index.js">
     <Files>
-      <File FileName="InstagramProject/Views/Home/Index.cshtml" Line="9" Column="27" />
-      <File FileName="InstagramProject/wwwroot/js/Index.js" Line="116" Column="1" />
+      <File FileName="InstagramProject/Views/Home/Index.cshtml" Line="9" Column="52" />
+      <File FileName="InstagramProject/wwwroot/js/Index.js" Line="133" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
