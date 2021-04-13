@@ -124,3 +124,9 @@ var myString = " Hello, this is a string ";
 var result = myString.substring(0, 3);
 
 console.log(result.trim());
+
+var date = new Date(1996, 11, 5, 6, 30);
+
+document.write(date);
+
+document.write(date.toLocaleString("ar-SA"));
