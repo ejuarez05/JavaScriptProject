@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{74DC171A-DFC3-4630-8A83-9DB2EF97E1DD}|Default">
   <MonoDevelop.Ide.ItemProperties.InstagramProject PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InstagramProject/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstagramProject/wwwroot/js/Index.js">
     <Files>
-      <File FileName="InstagramProject/Views/Home/Index.cshtml" Line="5" Column="30" />
-      <File FileName="InstagramProject/wwwroot/js/Index.js" Line="1" Column="1" />
+      <File FileName="InstagramProject/Views/Home/Index.cshtml" Line="9" Column="27" />
+      <File FileName="InstagramProject/wwwroot/js/Index.js" Line="116" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,12 +11,12 @@
           <Node name="InstagramProject" expanded="True">
             <Node name="InstagramProject" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="Index.js" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
