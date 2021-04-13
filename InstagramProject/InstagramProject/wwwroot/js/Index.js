@@ -112,3 +112,10 @@ var myBoolean = false;
 console.log(myNumber);
 console.log(myString);
 console.log(myBoolean);
+
+function SumOfNumbers(x, y) {
+    var result = x + y;
+    console.log(result);
+}
+
+SumOfNumbers(10, 20);
