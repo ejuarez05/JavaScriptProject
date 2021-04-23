@@ -30,12 +30,20 @@ var td = null;
 var imageSpan = null;
 var counter = 0;
 
-var image = new Image();
-image.imageName = "Image";
-image.imageId = 1;
-image.imagePath = "Any Part";
+var imageList = [];
 
-for (var i = 1; i <= 25; i++) {
+var image = new Image();
+for (var i = 0; i < 25; i++) {
+    image = new Image();
+    image.imageName = "Image " + (i + 1);
+    image.imageId = (i + 1);
+    image.imagePath = "Any Path";
+
+    imageList.push(image);
+}
+
+for (var i = 0; i < 25; i++) {
+    image = imageList[i];
     if (counter == 5) {
         tbody.appendChild(trow);
         trow = document.createElement("tr");
@@ -44,7 +52,7 @@ for (var i = 1; i <= 25; i++) {
     }
     td = document.createElement("td");
     imageSpan = document.createElement("span");
-    imageSpan.innerHTML = image.imageName + i;
+    imageSpan.innerHTML = image.imageName;
 
     td.appendChild(imageSpan);
     trow.appendChild(td);
