@@ -23,35 +23,33 @@ var lineBreak =
 
 div.appendChild(lineBreak);
 
-var image1Span =
-    document.createElement("span");
-image1Span.innerHTML = "Image 1 ";
+var table = document.createElement("table");
+var tbody = document.createElement("tbody");
+var trow = document.createElement("tr");
+var td = null;
+var imageSpan = null;
+var counter = 0;
 
-div.appendChild(image1Span);
+for (var i = 1; i <= 25; i++) {
+    if (counter == 5) {
+        tbody.appendChild(trow);
+        trow = document.createElement("tr");
+        counter = 0;
 
-var image2Span =
-    document.createElement("span");
-image2Span.innerHTML = "Image 2 ";
+    }
+    td = document.createElement("td");
+    imageSpan = document.createElement("span");
+    imageSpan.innerHTML = "Image" + i;
 
-div.appendChild(image2Span);
+    td.appendChild(imageSpan);
+    trow.appendChild(td);
+    counter++;
+}
 
-var image3Span =
-    document.createElement("span");
-image3Span.innerHTML = "Image 3 ";
+tbody.appendChild(trow)
+table.appendChild(tbody);
+div.appendChild(table);
 
-div.appendChild(image3Span);
-
-var image4Span =
-    document.createElement("span");
-image4Span.innerHTML = "Image 4 ";
-
-div.appendChild(image4Span);
-
-var image5Span =
-    document.createElement("span");
-image5Span.innerHTML = "Image 5 ";
-
-div.appendChild(image5Span);
 
 var lineBreak2 =
     document.createElement("br");
