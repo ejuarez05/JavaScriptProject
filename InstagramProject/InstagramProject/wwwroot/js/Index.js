@@ -16,7 +16,9 @@ var signUpButton =
     document.createElement("button");
 signUpButton.innerHTML = "Sign Up";
 
+
 div.appendChild(signUpButton);
+
 
 var lineBreak =
     document.createElement("br");
